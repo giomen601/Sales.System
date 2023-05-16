@@ -1,0 +1,15 @@
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\bin\Debug\net7.0\Sales.Application.deps.json
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\bin\Debug\net7.0\Sales.Application.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\bin\Debug\net7.0\Sales.Application.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\bin\Debug\net7.0\Sales.Domain.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\bin\Debug\net7.0\Sales.Domain.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.AssemblyInfo.cs
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.csproj.CopyComplete
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\refint\Sales.Application.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\Sales.Application.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Application\obj\Debug\net7.0\ref\Sales.Application.dll

@@ -1,0 +1,17 @@
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Persistence.deps.json
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Persistence.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Persistence.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Application.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Domain.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Application.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\bin\Debug\net7.0\Sales.Domain.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.AssemblyInfo.cs
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.csproj.CopyComplete
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\refint\Sales.Persistence.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\Sales.Persistence.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Persistence\obj\Debug\net7.0\ref\Sales.Persistence.dll
