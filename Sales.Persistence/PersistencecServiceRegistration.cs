@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Sales.Application.Contacts.Persistence;
+using Sales.Application.Contracts.Persistence;
 using Sales.Persistence.DbContext;
 using Sales.Persistence.Repositories;
 using System;

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Sales.Application.Contacts.Persistence;
+using Sales.Application.Contracts.Persistence;
 using Sales.Domain.Common;
 using Sales.Persistence.DbContext;
 using System;

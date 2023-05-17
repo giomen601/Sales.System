@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sales.Application.Contacts.Identity;
+namespace Sales.Application.Contracts.Identity;
 public interface IAuthService
 {
   Task<AuthResponse> Login(AuthRequest request);

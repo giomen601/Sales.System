@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Sales.Application.Contacts.Persistence;
+using Sales.Application.Contracts.Persistence;
 using Sales.Application.Features.Sale.Commands.UpdateSale;
 using Sales.Domain.Entities;
 using Sales.Persistence.DbContext;

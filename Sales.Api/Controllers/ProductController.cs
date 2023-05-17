@@ -39,7 +39,7 @@ public class ProductController : ControllerBase
   [ProducesResponseType(StatusCodes.Status404NotFound)]
   public async Task<ActionResult> Post(CreateProductCommand command)
   {
-    var response = mediator.Send(command);
+    var response = await mediator.Send(command);
     return CreatedAtAction(nameof(Get), new { id = response });
   }
 

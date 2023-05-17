@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sales.Application.Contacts.Persistence;
+namespace Sales.Application.Contracts.Persistence;
 public interface IProductRepository : IGenericRepository<Product>
 {
     Task<List<Product>> GetProductsWithDetails();

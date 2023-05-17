@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sales.Application.Contacts.Persistence;
+namespace Sales.Application.Contracts.Persistence;
 public interface IGenericRepository<T> where T : BaseEntity
 {
     Task<IReadOnlyList<T>> GetAsync();

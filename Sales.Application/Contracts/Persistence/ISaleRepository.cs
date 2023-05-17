@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sales.Application.Contacts.Persistence;
+namespace Sales.Application.Contracts.Persistence;
 public interface ISaleRepository : IGenericRepository<Sale>
 {
   Task<List<Sale>> GetSalesWithProducts();

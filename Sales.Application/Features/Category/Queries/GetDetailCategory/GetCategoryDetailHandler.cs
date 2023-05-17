@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using Sales.Application.Contacts.Persistence;
+using Sales.Application.Contracts.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
