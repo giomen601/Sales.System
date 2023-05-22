@@ -1,0 +1,17 @@
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Identity.deps.json
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Identity.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Identity.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Application.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Domain.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Application.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\bin\Debug\net7.0\Sales.Domain.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.csproj.AssemblyReference.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.AssemblyInfoInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.AssemblyInfo.cs
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.csproj.CoreCompileInputs.cache
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.csproj.CopyComplete
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\refint\Sales.Identity.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\Sales.Identity.pdb
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Identity\obj\Debug\net7.0\ref\Sales.Identity.dll

@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sales.Application\Sales.Application.csproj" />
+    <ProjectReference Include="..\Sales.Identity\Sales.Identity.csproj" />
     <ProjectReference Include="..\Sales.Persistence\Sales.Persistence.csproj" />
   </ItemGroup>
 
