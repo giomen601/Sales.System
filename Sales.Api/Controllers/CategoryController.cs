@@ -1,4 +1,6 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Sales.Application.Features.Category.Commands.CreateCategory;
 using Sales.Application.Features.Category.Commands.DeleteCategory;
@@ -38,6 +40,7 @@ public class CategoryController : ControllerBase
   [ProducesResponseType(201)]
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
+  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "IsAdmin")]
   public async Task<ActionResult> Post(CreateCategoryCommand command)
   {
     var response = await mediator.Send(command);

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sales.Application.Contracts.Identity;
-internal interface IUserService
+public interface IUserService
 {
   Task<List<User>> GetUsers();
   Task<User> GetUser(string userId);

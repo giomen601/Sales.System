@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Sales.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sales.Persistence.DbContext;
 public class SalesDbContext : Microsoft.EntityFrameworkCore.DbContext

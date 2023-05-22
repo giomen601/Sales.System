@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Sales.Application.Contracts.Identity;
+using Sales.Application.Exceptions;
 using Sales.Application.Models.Identity;
 using Sales.Identity.Models;
 using System;
@@ -32,14 +33,58 @@ public class AuthService : IAuthService
     this.jwtSettings = jwtSettings.Value;
   }
 
-  public Task<AuthResponse> Login(AuthRequest request)
+  public async Task<AuthResponse> Login(AuthRequest request)
   {
-    throw new NotImplementedException();
+    var user = await userManager.FindByEmailAsync( request.Email );
+
+    if (user == null)
+      throw new NotFoundException($"User {request.Email} was not found", request.Email);
+
+    var result = await signInManager.CheckPasswordSignInAsync(user, request.Password, false);
+
+    if (!result.Succeeded)
+      throw new BadRequestException($"Credentials for {request.Email} aren't valid");
+
+    JwtSecurityToken jwtSecurityToken = await GenerateToken(user);
+
+    return new AuthResponse
+    {
+      Id = user.Id,
+      Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),
+      Email = user.Email,
+      UserName = user.UserName
+    };
   }
 
-  public Task<RegistrationResponse> Register(RegistrationRequest request)
+  public async Task<RegistrationResponse> Register(RegistrationRequest request)
   {
-    throw new NotImplementedException();
+    var user = new ApplicationUser
+    {
+      Email = request.Email,
+      UserName = request.UserName,
+      EmailConfirmed = true
+    };
+
+    var result = await userManager.CreateAsync(user, request.Password);
+
+    if(result.Succeeded)
+    {
+      await userManager.AddToRoleAsync(user, "User");
+      return new RegistrationResponse()
+      {
+        UserId = user.Id,
+      };
+    }
+    else
+    {
+      StringBuilder str = new StringBuilder();
+      foreach (var err in result.Errors )
+      {
+        str.AppendFormat("•{0}\n", err.Description);
+      }
+
+      throw new BadRequestException($"{ str }");
+    }
   }
 
   private async Task<JwtSecurityToken> GenerateToken(ApplicationUser user)

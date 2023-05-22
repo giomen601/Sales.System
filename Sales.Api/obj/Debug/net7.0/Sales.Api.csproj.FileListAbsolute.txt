@@ -87,3 +87,11 @@ C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\
 C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\obj\Debug\net7.0\Sales.Api.pdb
 C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\obj\Debug\net7.0\Sales.Api.genruntimeconfig.cache
 C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\obj\Debug\net7.0\ref\Sales.Api.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Sales.Identity.dll
+C:\Users\Giovany\Documents\LEARNING\PRACTICES\asp.netcore\ventas\Sales.Practice\Sales.Api\bin\Debug\net7.0\Sales.Identity.pdb

@@ -1,4 +1,6 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Sales.Application.Features.Product.Commands.CreateProduct;
 using Sales.Application.Features.Product.Commands.DeleteProduct;
@@ -37,6 +39,7 @@ public class ProductController : ControllerBase
   [ProducesResponseType(201)]
   [ProducesResponseType(400)]
   [ProducesResponseType(StatusCodes.Status404NotFound)]
+  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "IsAdmin")]
   public async Task<ActionResult> Post(CreateProductCommand command)
   {
     var response = await mediator.Send(command);

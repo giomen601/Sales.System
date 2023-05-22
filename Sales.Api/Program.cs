@@ -2,18 +2,34 @@ using Microsoft.Extensions.DependencyInjection;
 using Sales.Application;
 using Sales.Persistence;
 using System.Text.Json.Serialization;
+using Sales.Identity;
+using System.IdentityModel.Tokens.Jwt;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Clear clamis jwt maps
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceService(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 
 // Add services to the container.
+
+builder.Services.AddAuthorization(options =>
+{
+  options.AddPolicy("IsAdmin",
+    policy =>
+    policy.RequireClaim
+    ("http://schemas.microsoft.com/ws/2008/06/identity/claims/role", "Administrator")
+  );
+});
 
 builder.Services.AddControllers();
 
 builder.Services.AddControllers().AddJsonOptions(x =>
-                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 builder.Services.AddCors
 (
@@ -40,6 +56,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("all");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
